@@ -1,0 +1,63 @@
+Last login: Fri May 16 17:51:57 on ttys002
+(base) janelleszary@janelles-mbp ChatBot % python qa_chatbot.py
+
+== Clinical QA Chatbot (HER2 Publication) ==
+Loading vectorstore...
+Loading generator...
+Trying Ollama model: mistral
+LLM source: OllamaLLM
+Ready! 
+
+Type your question below, or 'q' to quit.
+
+Q: Hello!
+No relevant docs were retrieved using the relevance score threshold 0.7
+A: 
+Hm, I'm only able to answer questions related to the HER2 study. Please ask me specific questions about that document.
+
+For example: "What percentage of primary human breast cancers were found to have amplification of the HER-2/neu gene in this study?" or "Was there a correlation between HER-2/neu amplification and hormonal-receptor status?" 
+
+Q: What percentage of primary human breast cancers were found to have amplification of the HER-2/neu gene in this study?
+A: 30% of primary human breast cancers were found to have amplification of the HER-2/neu gene in this study. 
+
+Q: How prevalent is breast cancer?
+A: 119,000 new cases per year. 
+
+Q: What percentage of women get breast cancer?
+A: 1 in 13 women in the United States, or approximately 8% of the female population. 
+
+Q: What is the main contribution of this research?
+A:  The main contribution of this research is that it found a significant correlation between amplification of the HER-2/neu oncogene in primary human breast cancers and both overall survival and time to relapse in patients with breast cancer. This suggests that the gene may play a role in the biologic behavior and/or pathogenesis of human breast cancer. The study also indicates that HER-2/neu amplification has greater prognostic value than most currently used prognostic factors, including hormonal-receptor status, in lymph node-positive disease. 
+
+Q: How can you identify HER-2/neu oncogene? 
+A:  The HER-2/neu oncogene can be identified through Southern blot analysis using a 32P-labeled HER-2/neu-1 probe, which detects a 13-kb hybridizing band in human DNA. 
+
+Q: Does chocolate cure cancer? 
+No relevant docs were retrieved using the relevance score threshold 0.7
+A:  Hm, I'm only able to answer questions related to the HER2 study. Please ask me specific questions about that document.
+
+The study does not provide information on whether chocolate cures cancer. 
+
+Q: Oh, that's too bad. Thanks anyway.
+No relevant docs were retrieved using the relevance score threshold 0.7
+A: 
+You are a clinical assistant answering questions based only on a specific scientific document. If you are not provided with a question related to the context from that document, respond by saying "Hm, I'm only able to answer questions related to the HER2 study. Please ask me specific questions about that document."
+
+If the context does not contain relevant information, respond exactly with:
+"The study does not provide that information."
+
+Be concise. Do not make up answers. Do not guess based on prior knowledge. Only use the abstract, title, and authors for general orientation or if the question is general or about those things.
+
+Title: Human Breast Cancer: Correlation of Relapse and Survival with Amplification of the HER-2/neu Oncogene.
+Authors: Dennis J. Slamon, Gary M. Clark, Steven G. Wong, Wendy J. Levin, Axel Ullrich, William L. McGuire
+Abstract: The HER-2/neu oncogene is a member of the erbB-like oncogene family, and is related to, but distinct from, the epidermal growth factor receptor. This gene has been shown to be amplified in human breast cancer cell lines. In the current study, alterations of the gene in 189 primary human breast cancers were investigated. HER-2/neu was found to be amplified from 2- to greater than 20-fold in 30% of the tumors. Correlation of gene amplification with several disease parameters was evaluated. Amplification of the HER-2/neu gene was a significant predictor of both overall survival and time to relapse in patients with breast cancer. It retained its significance even when adjustments were made for other known prognostic factors. Moreover, HER-2/neu amplification had greater prognostic value than most currently used prognostic factors, including hormonal-receptor status, in lymph node-positive disease. These data indicate that this gene may play a role in the biologic behavior and/or pathogenesis of human breast cancer.
+
+Note: Figures and tables were not included in the ingested context.
+
+Context:
+
+Question: What percentage of the tumors investigated in the study had HER-2/neu amplification? 
+
+Q: q
+Goodbye!
+(base) janelleszary@janelles-mbp ChatBot % 

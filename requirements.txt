@@ -1,0 +1,23 @@
+# Core ML & Transformers
+transformers==4.51.3
+torch==2.7.0
+sentence-transformers==4.1.0
+nltk==3.9.1
+
+# RAG & Vector Storage
+langchain==0.3.25
+langchain-chroma==0.2.3
+langchain-huggingface==0.1.2
+langchain-ollama==0.3.3
+chromadb==0.6.3
+
+# Data & Evaluation
+pandas==2.2.3
+tqdm==4.66.2
+matplotlib==3.10.0
+seaborn==0.13.2
+scikit-learn==1.4.2
+
+# Utilities
+requests==2.31.0
+ipython==8.22.2
